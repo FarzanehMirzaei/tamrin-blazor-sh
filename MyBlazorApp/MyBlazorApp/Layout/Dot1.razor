@@ -1,0 +1,14 @@
+﻿@page "/Dot1"
+<h3>@Job</h3>
+
+
+@code {
+    [Parameter]
+    public string Job { get; set; }
+
+    protected async override Task OnInitializedAsync()
+    {
+        Job = "maine";
+    }
+
+}
